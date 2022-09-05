@@ -1,5 +1,4 @@
 
-
 .doubtsContainer{
   margin: 20px;
   margin-bottom: 15px;
@@ -11,30 +10,23 @@ font-weight: 400;
 font-size: 42px;
 line-height: 53px;
 /* identical to box height */
-
-
 color: #000000;
-
 }
-
 .description1{
   font-family: 'Sora';
 font-style: normal;
 font-weight: 300;
 font-size: 24px;
 line-height: 30px;
-
 color: #000000;
 
 }
-
 .description2{
   font-family: 'Sora';
 font-style: normal;
 font-weight: 300;
 font-size: 24px;
 line-height: 30px;
-
 color: rgba(0, 0, 0, 0.7);
 
 }
@@ -48,12 +40,6 @@ line-height: 30px;
 color: rgba(0, 0, 0, 0.7);
 
 }
-
-
-
-
-
-
 .whatsappcontainer{
   display: flex;
   flex-direction: row;
@@ -61,7 +47,6 @@ color: rgba(0, 0, 0, 0.7);
   
   
 }
-
 .aboutWhatsapp{
   display: flex;
   flex-direction: row;
@@ -135,27 +120,51 @@ line-height: 30px;
 color: #000000;
 }
 .homeimg{
-  width: 463px;
+width: 463px;
 height: 409px;
 left: 977px;
 top: 367px;
+}
+@media screen and (max-width:768px){
+  .homeimg{
+    display: none;
+  }
+}
 
+.homeimgmobileview{
+  width: 360px;
+height: 318px;
+left: 0px;
+top: 714px;
+}
+@media screen and (min-width:768px){
+  .homeimgmobileview{
+    display: none;
+  }
 }
 
 .homeimg2{
-  width: 567px;
-height: 537px;
-left: -57px;
-top: 958px;
+width: 463px;
+height: 409px;
+left: 977px;
+top: 367px;
 }
-
-
-
-
-
-
-
-
+@media screen and (max-width:768px){
+  .homeimg2{
+    display: none;
+  }
+}
+.homeimg2mobileview{
+  width: 360px;
+height: 318px;
+left: 0px;
+top: 714px;
+}
+@media screen and (min-width:768px){
+  .homeimg2mobileview{
+    display: none;
+  }
+}
 .readytohelpContainer{
   display: flex;
   flex-direction: row;
@@ -168,16 +177,24 @@ top: 958px;
   text-align: center;
   align-items: center;
 }
+@media screen and (max-width:768px){
+  .totalContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  }
 
+}
 .students{
   align-items: center;
   margin-right: 25px;
   font-family: 'Sora';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 53px;
-text-align: center;
+  font-style: normal;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 53px;
+ text-align: center;
 
 /* secondary 2 */
 
@@ -194,9 +211,43 @@ font-weight: 400;
 font-size: 42px;
 line-height: 53px;
 /* identical to box height */
-
-
 color: rgba(0, 0, 0, 0.8);
+}
+@media screen and (max-width:768px){
+  .neatSkillsHeading{
+    display: none;
+  }
+}
+.neatSkillsHeadingmobileview{
+  font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 53px;
+
+color: #000000;
+}
+@media screen and (min-width:768px){
+  .neatSkillsHeadingmobileview{
+    display: none;
+  }
+}
+
+.mobileview{
+  font-family: 'Sora';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 30px;
+text-align: center;
+margin: 0px;
+
+color: #000000;
+}
+@media screen and (min-width:768px){
+  .mobileview{
+    display: none;
+  }
 }
 .neatSkillsContainer{
   display: flex;
@@ -204,7 +255,6 @@ color: rgba(0, 0, 0, 0.8);
   justify-content: center;
   align-items: center;
 }
-
 .neat{
   font-family: 'roboto';
   color: orange;
@@ -219,4 +269,11 @@ line-height: 30px;
 text-align: center;
 
 color: #000000;
+}
+
+.homeimg2{
+  width: 567px;
+height: 537px;
+left: -57px;
+top: 958px;
 }
